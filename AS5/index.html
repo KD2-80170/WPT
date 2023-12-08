@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Registration</title>
+</head>
+<body>
+    <center>
+        <form action="">
+        <div style="width: 600px;height: 90px;margin-top: 50px;">
+            <h1>Customers Registration</h1>
+        </div>
+        <div style="width: 600px;height: 300px; border: solid;background-color: coral;">
+
+           <table style="width: 70%;">
+            <tr>
+                <td>CNUM</td>
+                <td><input type="number" required="required" name="Cnum" id="Cnum"></td>
+            </tr>
+            <tr>
+                <td>CNAME</td>
+                <td><input type="text" required="required" name="Cname" id="Cname"></td>
+            </tr>
+            <tr>
+                <td>EMAIL</td>
+                <td><input type="email" required="required" name="Cemail" id="Cemail"></td>
+            </tr>
+            <tr>
+                <td>PASSWORD</td>
+                <td><input type="password" required="required" name="Cpassword" id="Cpassword"></td>
+            </tr>
+            <tr>
+                <td>CONFIRM PASSWORD</td>
+                <td><input type="password" required="required" name="Cpassword" id="Cpassword"></td>
+            </tr>
+            <tr>
+                <td>MOBILE NO</td>
+                <td><input type="tel" required="required" name="Cmob" id="Cmob" pattern="[0-9]{10}"></td>
+            </tr>
+            <tr>
+                <td>CITY</td>
+                <td><input type="text" required="required" name="Ccity" id="Ccity"></td>
+            </tr>
+            <tr>
+                <td>STATE</td>
+                <td>
+                    <select name="State" required="required" id="State">
+                        <option value="State">Maharashtra</option>
+                        <option value="State">Gujrat</option>
+                        <option value="State">Punjab</option>
+                        <option value="State">Bihar</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>PINCODE</td>
+                <td><input type="number" required="required" name="Cpin" id="Cpin"></td>
+            </tr>
+            <tr>
+                <td required="required">REQUEST_PAYMENT_MODE</td>
+                <td>
+                    <input type="radio" name="payment" id="payment1">Credit
+                    <input type="radio" name="payment" id="payment2">Debit
+                    <input type="radio" name="payment" id="payment3">UPI
+                </td>
+            </tr>
+            <tr>
+                
+                <td colspan="2">
+                    <input type="submit" name="submit" id="submitBtn" style="margin-left: 150px;">
+                </td>
+            
+            </tr>
+           </table>
+            
+        </div>
+    </form>
+    </center>
+</body>
+</html>

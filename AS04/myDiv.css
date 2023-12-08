@@ -1,0 +1,8 @@
+
+.myDiv {
+    border:solid;
+    border-color: black;
+    height: 50%;
+    width: 50%;
+    text-align: center;
+  }

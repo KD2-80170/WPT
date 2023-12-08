@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="myDiv.css">
+</head>
+<body>
+    
+   
+      
+    <center>
+
+    <table>
+        <tr>
+            <div style="height: 50px;width: 55%;font-size: 50px;background: fixed;background-color: gray;border-color: black;"><h><b>Registration</b></h></div>
+        </tr>
+
+    <div class="myDiv" style="margin-left: 50px;margin-top: 20px;margin-right: 40px;">
+        <center>        
+        <form method="post"> 
+            <table >
+                <tbody>
+                    
+                    <tr>
+                        <td>Name</td>
+                        <td><input type="text" name="myName" required="required" placeholder="Enter name"></td>
+                    </tr>
+                    <tr>
+                        <td>DOB</td>
+                        <td><input type="date" required="required" name="myDOB"></td>
+                    </tr>
+                    <tr>
+                        <td>Email</td>
+                        <td><input type="email" required="required" name="myEmail" ></td>
+                    </tr>
+                    <tr>
+                        <td>Password</td>
+                        <td><input type="password" required="required" name="myPassword" ></td>
+                    </tr>
+                </tbody>
+            </table>
+            
+            <table style="margin-left: 35px;">
+                <tr>
+                    <td>Address</td>
+                    <td>
+                        <select name="State" >
+                            <option value="State">Maharatsra</option>
+                            <option value="State">Gujrat</option>
+                            <option value="State">Karnataka</option>
+                        </select>
+                    </td>
+                    <td>
+                        <select name="District" >
+                            <option value="District">Kohapur</option>
+                            <option value="District">Satara</option>
+                            <option value="District">Jalna</option>
+                        </select>
+                    </td>
+                    <td>
+                        <select name="City" >
+                            <option value="City">Kagal</option>
+                            <option value="City">Karad</option>
+                            <option value="City">Pune</option>
+                        </select>
+                    </td>
+                </tr>
+    
+            </table>
+            <table  style="width: 20%;margin-left: 120px;">
+                <tr>
+                <td>Gender</td>
+                <td><input type="radio" name="Gender" value="1">F</td>
+                <td><input type="radio" name="Gender" value="2">M</td>
+                </tr>
+              
+            </table>
+            
+            <table style="margin-left:95px;">
+                <tr>
+                    <td colspan="2">Upload Photo</td>
+                    <td colspan="2"><input type="file" name="uploadImg"/></td>
+                    
+                </tr>
+            </table>
+            
+            
+            <table style="width: 15%;margin-left:30px;">
+                <tr>
+                    <td colspan="2">Select Your Course </td>
+                    <td colspan="2">
+                        <select name="Course" required="required">
+                            <option value="Course">DAC</option>
+                            <option value="Course">DMC</option>
+                            <option value="Course">DBDI</option>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+            <br>
+            <table  style="width: 22%; margin-left: 150px;">
+                <tr >
+                    <td colspan="2" ><input type="submit" name="submitBtn" value="submit" ></td>
+                    <td colspan="2"><input type="reset" name="clearBtn" value="Clear" ></td>
+                </tr>
+            </table>
+            
+        
+   
+    </form>
+    </center>
+    </div>
+</table>
+    </center>
+
+</body>
+</html>
